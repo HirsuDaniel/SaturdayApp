@@ -61,6 +61,18 @@
                             </div>
                         </div>
 
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end">
+                                <label class="col-form-label text-md-end" for="flexCheckDefault">
+                                    Are you a company?
+                                </label>
+                            </div>
+
+                            <div class="col-md-6 text-left">
+                                <input class="form-check-input" type="checkbox" name="is_company_admin" value="1" id="flexCheckDefault">
+                            </div>
+                        </div>
+
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
