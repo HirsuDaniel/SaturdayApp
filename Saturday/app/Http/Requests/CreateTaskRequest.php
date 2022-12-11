@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rule;
 
 class CreateTaskRequest extends FormRequest
@@ -14,7 +15,9 @@ class CreateTaskRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        //@TODO add auth check for routes
+        //check if you are authenticated
+        return true;
     }
 
     /**
